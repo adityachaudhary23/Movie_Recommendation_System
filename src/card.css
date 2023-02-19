@@ -1,0 +1,26 @@
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgb(138 137 137);
+    padding: 10px;
+    margin: 16px;   
+    display: inline-block;
+
+    position:relative;
+    background: rgb(188, 154, 154);
+    width:320px;
+    height:500px;
+    float: left;
+    overflow-wrap: break-word;
+}
+
+.header {
+    background-color: #f5ba13;
+    padding: 10px 30px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    display: block;
+}
+
+
+
+
