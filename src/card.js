@@ -8,9 +8,7 @@ function Card(props) {
     
     return (<div className="card">
         <h1>{props.movie.title}</h1>
-        {/* <ul>Genre: {props.movie.genres.map((genre)=><li>{genre.name}</li>
-        )}</ul> */}
-        {/* {props.genre.map((gen)=><h1>{gen}</h1>)} */}
+        
         <p><b>IMDB Rating: </b>{props.movie.vote_average}</p>
         <p><b>Language: </b>{props.movie.original_language}</p>
         <p><b>Budget: </b>{props.movie.budget}</p>
